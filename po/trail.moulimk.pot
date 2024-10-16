@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the trail.moulimk package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: trail.moulimk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-16 03:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/Main.qml:26
+msgid "Expenses Reporting App"
+msgstr ""
+
+#: ../qml/Main.qml:38
+msgid "Item Name"
+msgstr ""
+
+#: ../qml/Main.qml:46
+msgid "Item Amount (in ₹)"
+msgstr ""
+
+#: ../qml/Main.qml:67
+msgid "Add"
+msgstr ""
+
+#: ../qml/Main.qml:74
+msgid "Please fill in both the Item Name and Item Amount."
+msgstr ""
+
+#: ../qml/Main.qml:93
+msgid "Save"
+msgstr ""
+
+#: ../qml/Main.qml:114
+msgid "Total: ₹ 0.00"
+msgstr ""
+
+#: ../qml/Main.qml:121 ../qml/Main.qml:179
+msgid "Total: ₹ "
+msgstr ""
+
+#: ../qml/Main.qml:131
+msgid "View Table"
+msgstr ""
+
+#: trail.desktop.in.h:1
+msgid "trail"
+msgstr ""

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+c2af4d4e86d24d3656dbb4b9fe63755c CMakeFiles/trail.desktop
+541901c01d6aa6d7084275083d9f3790 po/CMakeFiles/trail.moulimk.pot
