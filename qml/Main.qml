@@ -24,12 +24,11 @@ MainView {
             header: PageHeader {
                 id: header
                 title: i18n.tr('Expenses Reporting App')
-               
             }
-            
+
             // Center the Column in the Page
             Column {
-                anchors.centerIn: parent  // Center the entire Column within the Page
+                anchors.centerIn: parent
                 spacing: units.gu(2)
 
                 // Input for item name
@@ -37,7 +36,7 @@ MainView {
                     id: itemNameInput
                     placeholderText: i18n.tr("Item Name")
                     color: "black"
-                    width: units.gu(30)  // Set a width for better appearance
+                    width: units.gu(30)
                 }
 
                 // Input for item amount
@@ -46,7 +45,7 @@ MainView {
                     placeholderText: i18n.tr("Item Amount (in ₹)")
                     color: "black"
                     inputMethodHints: Qt.ImhDigitsOnly
-                    width: units.gu(30)  // Set a width for better appearance
+                    width: units.gu(30)
                 }
 
                 // Warning Label for missing input
@@ -60,14 +59,14 @@ MainView {
                 // Row for Add and Save buttons
                 Row {
                     spacing: units.gu(2)
-                    anchors.horizontalCenter: parent.horizontalCenter  // Center the row
+                    anchors.horizontalCenter: parent.horizontalCenter
 
                     // Add Button
                     Button {
                         text: i18n.tr("Add")
                         background: Rectangle {
                             color: "skyblue"
-                            radius: 5  // Rounded corners
+                            radius: 5
                         }
                         onClicked: {
                             if (itemNameInput.text === "" || itemAmountInput.text === "") {
@@ -90,15 +89,13 @@ MainView {
 
                     // Save Button
                     Button {
-                        text: i18n.tr("Save")
+                        text: i18n.tr("Share")
                         background: Rectangle {
                             color: "skyblue"
-                            radius: 5  // Rounded corners
+                            radius: 5
                         }
                         onClicked: {
-                            python.call('example.saveToCSV', [], function() {
-                                console.log("Data saved to CSV.");
-                            })
+                             console.log("share function not implemented.");
                         }
                     }
                 }
@@ -106,7 +103,7 @@ MainView {
                 // Row for Total and Share buttons
                 Row {
                     spacing: units.gu(2)
-                    anchors.horizontalCenter: parent.horizontalCenter  // Center the row
+                    anchors.horizontalCenter: parent.horizontalCenter
 
                     // Total Button
                     Button {
@@ -114,7 +111,7 @@ MainView {
                         text: i18n.tr("Total: ₹ 0.00")
                         background: Rectangle {
                             color: "skyblue"
-                            radius: 5  // Rounded corners
+                            radius: 5
                         }
                         onClicked: {
                             python.call('example.calculateTotal', [], function(result) {
@@ -123,29 +120,31 @@ MainView {
                         }
                     }
                 }
+
+                // Navigation Button to go to the Item List Page
                 Row {
                     spacing: units.gu(2)
                     anchors.horizontalCenter: parent.horizontalCenter
-                    // Navigation Button to go to the Item Table Page
+
                     Button {
-                        text: i18n.tr("View Table")
+                        text: i18n.tr("View List")
                         background: Rectangle {
                             color: "skyblue"
-                            radius: 5  // Rounded corners
+                            radius: 5
                         }
                         onClicked: {
-                            pageStack.push(itemTablePage)
+                            pageStack.push(itemlistPage)
                         }
                     }
                 }
             }
         }
 
-        // Table view page for items
+        // Item List page
         Component {
-            id: itemTablePage
-            ItemTablePage {
-                id: tablePage
+            id: itemlistPage
+            ItemListPage {
+                id: listPage
             }
         }
     }
