@@ -69,7 +69,7 @@ include po/CMakeFiles/trail.moulimk.pot.dir/progress.make
 po/CMakeFiles/trail.moulimk.pot:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/Desktop/trail/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
 	cd /home/vboxuser/Desktop/trail/build/all/app/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/vboxuser/Desktop/trail trail.desktop.in
-	cd /home/vboxuser/Desktop/trail/build/all/app/po && /usr/bin/xgettext -o trail.moulimk.pot -D /home/vboxuser/Desktop/trail/po -D /home/vboxuser/Desktop/trail/build/all/app/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=ctr:1c,2 --keyword=dctr:2c,3 --keyword=N_ --keyword=_ --keyword=dtr:2 --keyword=dtr:2,3 --keyword=tag --keyword=tag:1c,2 --package-name='trail.moulimk' --sort-by-file ../qml/ItemTablePage.qml ../qml/Main.qml trail.desktop.in.h
+	cd /home/vboxuser/Desktop/trail/build/all/app/po && /usr/bin/xgettext -o trail.moulimk.pot -D /home/vboxuser/Desktop/trail/po -D /home/vboxuser/Desktop/trail/build/all/app/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=ctr:1c,2 --keyword=dctr:2c,3 --keyword=N_ --keyword=_ --keyword=dtr:2 --keyword=dtr:2,3 --keyword=tag --keyword=tag:1c,2 --package-name='trail.moulimk' --sort-by-file ../qml/ItemListPage.qml ../qml/Main.qml trail.desktop.in.h
 	cd /home/vboxuser/Desktop/trail/build/all/app/po && /opt/cmake/bin/cmake -E copy trail.moulimk.pot /home/vboxuser/Desktop/trail/po
 
 trail.moulimk.pot: po/CMakeFiles/trail.moulimk.pot

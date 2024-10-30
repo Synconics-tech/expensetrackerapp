@@ -4,5 +4,5 @@
 //assets/logo.svg
 //src/example.py
 //qml/Main.qml
-//qml/ItemTablePage.qml
+//qml/ItemListPage.qml
 //trail.desktop

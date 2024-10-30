@@ -114,6 +114,7 @@ MainView {
                     Button {
                         id: addButton
                         text: i18n.tr("Add")
+                        font: 20
                         background: Rectangle {
                             color: "skyblue"
                             radius: 5

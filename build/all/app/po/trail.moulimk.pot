@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trail.moulimk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-16 03:24+0000\n"
+"POT-Creation-Date: 2024-10-30 09:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,40 +17,56 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/Main.qml:26
-msgid "Expenses Reporting App"
+#: ../qml/ItemListPage.qml:150
+msgid "Back"
 msgstr ""
 
-#: ../qml/Main.qml:38
-msgid "Item Name"
-msgstr ""
-
-#: ../qml/Main.qml:46
-msgid "Item Amount (in ₹)"
-msgstr ""
-
-#: ../qml/Main.qml:67
-msgid "Add"
-msgstr ""
-
-#: ../qml/Main.qml:74
-msgid "Please fill in both the Item Name and Item Amount."
-msgstr ""
-
-#: ../qml/Main.qml:93
+#: ../qml/ItemListPage.qml:164
 msgid "Save"
 msgstr ""
 
-#: ../qml/Main.qml:114
+#: ../qml/Main.qml:37
+msgid "Expenses Reporting App"
+msgstr ""
+
+#: ../qml/Main.qml:62
+msgid "Select Category"
+msgstr ""
+
+#: ../qml/Main.qml:70
+msgid "Item Name"
+msgstr ""
+
+#: ../qml/Main.qml:79
+msgid "Item Amount (in ₹)"
+msgstr ""
+
+#: ../qml/Main.qml:116
+msgid "Add"
+msgstr ""
+
+#: ../qml/Main.qml:138
+msgid "Please fill in both the Item Name and Item Amount."
+msgstr ""
+
+#: ../qml/Main.qml:148
+msgid "Item added successfully: "
+msgstr ""
+
+#: ../qml/Main.qml:164
+msgid "Share"
+msgstr ""
+
+#: ../qml/Main.qml:202
 msgid "Total: ₹ 0.00"
 msgstr ""
 
-#: ../qml/Main.qml:121 ../qml/Main.qml:179
+#: ../qml/Main.qml:223
 msgid "Total: ₹ "
 msgstr ""
 
-#: ../qml/Main.qml:131
-msgid "View Table"
+#: ../qml/Main.qml:235
+msgid "View List"
 msgstr ""
 
 #: trail.desktop.in.h:1
