@@ -1,0 +1,15 @@
+{
+    "name": "trail.moulimk",
+    "description": "trail",
+    "architecture": "@CLICK_ARCH@",
+    "title": "trail",
+    "hooks": {
+        "trail": {
+            "apparmor": "trail.apparmor",
+            "desktop":  "trail.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "moulimk <mou;igangadharpedireddy@gmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
